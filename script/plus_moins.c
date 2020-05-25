@@ -150,7 +150,7 @@ int main(int argc, char** argv)
         			    	scanf("%d", &choix_joueur);
         	                            plus_moins(choix_joueur, valeur_a_trouver);
         
-        				    if(i == 3)
+        				    if(i == 10)
         				    {
         					    printf("Plus de cartouche! Le chiffre est %d\n", valeur_a_trouver);
         					    break;
@@ -169,6 +169,7 @@ int main(int argc, char** argv)
     			scanf("%d",&choix);
     			mode_deuxJoueurs(hasard,choix,1,0,0);
              }
+		printf("###############GAME OVER#################");
     }
 
 
